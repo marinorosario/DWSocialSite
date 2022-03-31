@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template: 
+        "cabeza cabeza cabeza cabeza" 80px
+        "barraizq contprincipal contprincipal barrader" auto
+        "pie pie pie pie" 200px /
+        250px auto auto 250px;
+}
+
+header{
+    grid-area: cabeza;
+    background-color:rgb(16, 105, 16);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 40px;
+    margin-left: 30px;
+}
+
+.left-header{
+    margin: 15px 0;
+}
+
+.icon-list{
+    display: inline-block;
+}
+
+.icon-list img{
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.left-bar{
+    grid-area: barraizq;
+    background-color:bisque;
+    height: 100vh;
+}
+
+.main-content{
+    grid-area: contprincipal;
+    background-color:cadetblue;
+}
+
+.right-bar{
+    grid-area: barrader;
+    background-color:darkolivegreen;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buscador{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    background-color:azure;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.buscador img{
+    margin: 10px;
+}
+
+.buscador input{
+    width: 100%;
+    margin-right: 5px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.perfil{
+    margin: 20px 15px;
+}
+
+.perfil img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+footer{
+    grid-area: pie;
+    background-color:gray;
+}

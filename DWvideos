@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW Videos</title>
+    <link rel="stylesheet" href="css/DW-video.css">
+</head>
+
+
+<body>
+
+        <!--Barra Navegacion-->
+        <nav class="nav-general"> 
+
+        
+            <div class="nav-izquierda">
+            
+                <img src="imgs/logo.png" class="logo" alt=""/>
+            
+                <ul>
+                    <li><img src="imgs/friends.png" alt=""/></li>
+                    <li><img src="imgs/marketplace.png" alt=""/></li>
+                    <li><img src="imgs/watch.png" alt=""/></li>
+                </ul>
+        
+            </div>
+
+            <div class="nav-derecha">
+                <div class="buscador">
+                    <img src="imgs/search.png" alt=""/>
+                    <input type="search" name="Busqueda" id="" placeholder="Buscador..." />
+                </div>
+
+                <div class="nav-usuario">
+                    <figure class="perfil">
+                    <img src="imgs/photo1.png" alt=""/>
+                    </figure>
+                
+                </div>
+
+             </div>
+            
+        </nav>
+
+        <!--Parte Isquierda de la pagina-->
+        
+         <aside class="bar-izq">
+            <div class="bar-izq-contenido">
+               <ul>
+                   <li><a href="#">Navegacion</a></li>
+                   <li><a href="#">Videos</a></li>
+                   <li><a href="#">Amigos</a></li> </li>
+               </ul>
+            </div>
+    
+            </aside>
+
+            <!--Parte central de la pagina Luis-->
+         <div class="Contenedor-general">
+
+                <div class="contenedor-video">
+                    
+                    <video autoplay loop controls muted class="video">
+                        <source src="videos/video2DW.mp4" type="video/mp4">
+                    </video>
+
+                     <div class="cont-info">
+                        
+                        <p class="p1">Dw Software</p>
+                        <p class="p2">Dw Software, Es un Canal dedicado al desarrollo web, si te gusta la programacion enfocado en el Desarrolo Web este Canal es para ti.</p>
+
+                        <div class="canal-usuario">
+                            <figure class="Cperfil">
+                            <img src="imgs/photo1.png" alt=""/>
+                            </figure>
+                        
+                        </div>
+
+
+                    </div>
+                     
+                </div>
+
+                
+            
+            </div>
+
+            <!-- Parte 2 de la pag Videos 2-->
+
+            <div class="Contenedor-2">
+                <h2>Canales <b>en directo</b> que podrian interesarte</h2>
+                
+                <div class="Cvideo">
+                    <video autoplay loop controls muted >
+                        <source src="videos/video.1.mp4" type="video/mp4" >
+                    </video>
+
+                    <div class="Cinfo">
+                        <p class="Titulo"> Adventure Life</p>
+                        <p class="Idioma">Naturaleza</p>
+                        <div class="Perfil-c">
+                            <figure class="Cperfil">
+                            <img src="imgs/member-6.png" alt=""/>
+                            </figure>
+                        </div>
+
+                    </div>
+                    
+                </div>
+                <div class="Cvideo">
+                    <video autoplay loop controls muted >
+                        <source src="videos/video.2.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="Cinfo">
+                        <p class="Titulo"> Software X</p>
+                        <p class="Idioma">Programacion</p>
+                        <div class="Perfil-c">
+                            <figure class="Cperfil">
+                            <img src="imgs/member-9.png" alt=""/>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div class="Cvideo">
+                    <video autoplay loop controls muted >
+                        <source src="videos/video.3.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="Cinfo">
+                        <p class="Titulo"> PD Games</p>
+                        <p class="Idioma">Juegos</p>
+                        <div class="Perfil-c">
+                            <figure class="Cperfil">
+                            <img src="imgs/member-2.png" alt=""/>
+                            </figure>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="Cvideo">
+                    <video autoplay loop controls muted >
+                        <source src="videos/video.4.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="Cinfo">
+                        <p class="Titulo"> Vlog Food</p>
+                        <p class="Idioma">Comida</p>
+                        <div class="Perfil-c">
+                            <figure class="Cperfil">
+                            <img src="imgs/member-3.png" alt=""/>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+            </div>
+
+
+            <footer class="PaginaPie">
+                <p>Derechos Reservados</p>
+            </footer>
+
+    
+</body>
+</html>
+
+
+
+------------------------------------------------------------CSS----------------------------------------------------------------------------------
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    background :#46922b; 
+
+}
+
+.nav-general{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-izquierda,
+.nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+.nav-izquierda ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-izquierda ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
+
+.buscador{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.buscador img{
+    width: 18px;
+}
+
+.buscador input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.nav-usuario{
+    margin-left: 30px;
+}
+
+.nav-usuario img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.bar-izq{
+    float: left;
+    width: 20%;
+    height: 1000px;
+    background: #ccc;
+    padding: 20px;
+}
+
+.bar-izq ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* VIDEO */
+
+.Contenedor-general{
+    width: 80%;
+    height: 500px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   
+}
+
+.contenedor-video{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.video{
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px hsl(0, 0%, 0%);
+  
+}
+
+
+.cont-info{
+   display: flex;
+   flex-flow: column;
+    width: 240px;
+    height: 250px;
+    background-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px black;
+    gap: 40px;
+    position: relative;
+}
+
+.p1{
+    display: flex;
+    align-self: flex-end;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.canal-usuario img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: absolute;
+    top: 0;
+    
+}
+
+/*Videos Seccion 2*/
+ 
+.Contenedor-2{
+    width: 80%;
+    height: 600px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+.Cvideo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+video{
+    width: 240px;
+    height: 160px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px hsl(0, 0%, 0%);
+    margin-top: 10px;
+}
+
+
+h2{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    margin-top: 60px;
+    color: #0a0b0a;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+
+b{
+    color: #46922b;
+}
+
+.Cinfo{
+   display: flex; 
+    flex-flow: column;
+    width: 200px;
+    height: 100px;
+   
+     position: relative;
+     
+}
+
+.Titulo{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Idioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-color: black;
+    background-color: grey;
+    background-size: 20px 20px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.Perfil-c img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: absolute;
+    top: 0;
+
+}
+
+.PaginaPie{
+    background-color: #626262;
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 14px;
+
+}

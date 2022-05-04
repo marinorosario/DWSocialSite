@@ -1,0 +1,354 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    background :#46922b; 
+
+}
+
+.nav-general{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-izquierda,
+.nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+.nav-izquierda ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+
+.nav-izquierda ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
+.bar-izq{
+    grid-area: barraizq;
+    background-color:#BFC9CA;
+    height: 100vh;
+ }    
+
+
+footer a:link, a:visited{
+    color: #424949;
+    
+}   
+
+img {
+    width: 22px;
+    margin-right: 10px;
+    margin-top:auto;
+    margin-left: 30px;
+    
+}
+.canalesf img {
+    border-radius: 50%;
+    
+}
+.canalesf
+{
+    font-family:Calibri;
+    margin: auto;
+    font-size: 17px;
+}
+.enlaces{
+    font-size: 10px;
+    margin: auto;
+    background-color: #BFC9CA;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.favoritos{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    padding: 10px;
+}
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
+
+.buscador{
+    background: #efefef;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.buscador img{
+    width: 18px;
+}
+
+.buscador input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.nav-usuario{
+    margin-left: 30px;
+}
+
+.nav-usuario img{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*Parte Joesky*/
+
+.bar-izq{
+    grid-area: barraizq;
+    background-color:#BFC9CA;
+    height: 100vh;
+ }    
+
+ footer a:link, a:visited{
+    color: #424949;
+    
+}   
+
+img {
+    width: 22px;
+    margin-right: 10px;
+    margin-top:auto;
+    margin-left: 30px;
+    
+}
+.canalesf img {
+    border-radius: 50%;
+    
+}
+.canalesf
+{
+    font-family:Calibri;
+    margin: auto;
+    font-size: 17px;
+}
+.enlaces{
+    font-size: 10px;
+    margin: auto;
+    background-color: #BFC9CA;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.favoritos{
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    padding: 10px;
+}
+/* VIDEO C */
+
+.Contenedor-general{
+    width: 80%;
+    height: 500px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   
+}
+
+.contenedor-video{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.video{
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px hsl(0, 0%, 0%);
+  
+}
+
+
+.cont-info{
+   display: flex;
+   flex-flow: column;
+    width: 240px;
+    height: 250px;
+    background-color: grey;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px black;
+    gap: 40px;
+    position: relative;
+}
+
+.p1{
+    display: flex;
+    align-self: flex-end;
+    color: aliceblue;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.canal-usuario img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: absolute;
+    top: 0;
+    
+}
+
+/*Videos Seccion 2 Luis*/
+ 
+.Contenedor-2{
+    width: 80%;
+    height: 600px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+.Cvideo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+video{
+    width: 240px;
+    height: 160px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 8px 10px hsl(0, 0%, 0%);
+    margin-top: 10px;
+}
+
+
+h2{
+    position: absolute;
+    top: 0;
+    left: 30px;
+    color: #0a0b0a;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+
+b{
+    color: #46922b;
+}
+
+.Cinfo{
+   display: flex; 
+    flex-flow: column;
+    width: 200px;
+    height: 100px;
+   
+     position: relative;
+     
+}
+
+.Titulo{
+    display: flex;
+    align-self: flex-end;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Idioma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border-color: black;
+    background-color: grey;
+    background-size: 20px 20px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.Perfil-c img{
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 15px;
+    position: absolute;
+    top: 0;
+
+}
+
+.PaginaPie{
+    background-color: #626262;
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 14px;
+
+}
+
+/*Videos Seccion Marlyn*/
+.seccion  {
+    width: 80%;
+    height: 300px;
+    background-color: ghostwhite;
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+

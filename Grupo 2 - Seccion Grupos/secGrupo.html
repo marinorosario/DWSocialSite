@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupos</title>
+    <link rel="stylesheet" href="secGrupos.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- Barra de navegacion de arriba, se uso la misma de la pag. principal -->
+    <nav class="nav-pegada">
+        <div class="nav-izq">
+             <a href="../index.html"><img src="../imgs/logo.png" class="logo" /></a>
+             <ul>
+                 <li><img src="../imgs/notification.png" alt="" /> </li>
+                 <li><img src="../imgs/inbox.png" alt="" /> </li>
+                 <li><img src="../imgs/video.png" alt="" /> </li>
+             </ul>
+        </div>
+        <div class="nav-der">
+             <div class="barra-busq">
+                 <img src="../imgs/search.png" alt="" />
+                 <input type="search" placeholder="Buscador..." name="buscar" id="" />
+             </div>
+ 
+             <div class="nav-usuario-icon offline">
+                 <img src="../imgs/profile-pic.png" alt="" />
+             </div>
+        </div>
+    </nav>
+
+     <!-- CONTENEDOR PRINCIPAL DE LA PAGINA -->
+    <main class="contenedor">
+         <!-- BARRA LATERAL IZQ SE VA A DIVIDIR EN 2(USANDO DIVS) -->
+         <!--  SECCION DE BARRA SOBRE GRUPOS A LOS QUE PERTENCES -->
+        <aside class="barra-izq">
+            <div class="grupPertence">
+                <p>Grupos a los que perteneces</p>
+                <ul class="listaGrupoPertence">
+                    <li><img src="../imgs/group.png" alt=""> Iglesia Adventista Central</li>
+                    <li><img src="../imgs/group.png" alt=""> Adventistas Unidos</li>
+                    <li><img src="../imgs/group.png" alt=""> ConquiGuias</li>
+                    <li><img src="../imgs/group.png" alt=""> Familia Perez</li>
+                </ul>
+            </div>
+
+            <!--  SECCION DE BARRA SOBRE SUGERENCIAS PARA UNIRSE A GRUPOS-->
+            <div class="SugerenciasGrupos">
+                <p>Tambien te podria interesar: </p> 
+                <ul class="listaSugerencias">
+                    <li><img src="../imgs/group.png" alt=""> Union Adventista Dominicana <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg></a></li>
+                    <li><img src="../imgs/group.png" alt=""> Todo Por El <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg></a></li>
+                    <li><img src="../imgs/group.png" alt=""> Cambiando Vidas <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg></a></li>
+                    <li><img src="../imgs/group.png" alt=""> Memes ConquiGuias <a href=""><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg></a></li>
+                    <a href="#"><li class="verMas">Ver mas...</li></a>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- SECCION PRINCIPAL (DONDE VAN LOS POSTS SUBIDOS POR LOS GRUPOS) -->
+        <section class="principal">
+            <p class="TituloNoticias">Noticias</p>
+            <article class="post-contenedor">
+                <div class="post-fila">
+                    <figure class="perfil-usuario">
+                        <img src="../imgs/group.png" alt="" />
+                        <figcaption>
+                            <p>Nombre Grupo</p>
+                            <p class="QuienPublico">Nombre de quien Publico</p>
+                            <span>24 junio 2022, 10:20 am</span>
+                        </figcaption>
+                    </figure>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+    
+                <p class="post-texto">Lorem ipsum dolor sit amet, <span>consectetur  adipiscing elit. Suspendisse mi ipsum</span>, hendrerit quis laoreet vitae, auctor nec lacus. Praesent dapibus varius enim nec hendrerit. Proin laoreet, eros faucibus feugiat pulvinar, est nisi eleifend nisi, vitae interdum quam sapien quis lacus. Suspendisse tincidunt volutpat odio, vitae eleifend sem euismod tincidunt. 
+                    <a href="#">#ConquisGuias</a><a href="#"> #ConquisGuiasChannel</a>
+                </p>
+                <img src="../imgs/feed-image-4.png" alt="" class="post-imagen" />
+    
+                <div class="post-fila">
+                    <div class="actividad-iconos">
+                        <div><img src="../imgs/like-blue.png" alt="" /> 20</div>
+                        <div><img src="../imgs/comments.png" alt="" /> 5</div>
+                        <div><img src="../imgs/share.png" alt="" /> 20</div>
+                    </div>
+                    <div class="post-perfil-icono">
+                        <img src="../imgs/profile-pic.png" alt="" />
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </article>
+    
+            <article class="post-contenedor">
+                <div class="post-fila">
+                    <figure class="perfil-usuario">
+                        <img src="../imgs/group.png" alt="" />
+                        <figcaption>
+                            <p>Nombre Grupo</p>
+                            <p class="QuienPublico">Nombre de quien Publico</p>
+                            <span>24 junio 2022, 10:20 am</span>
+                        </figcaption>
+                    </figure>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+    
+                <p class="post-texto">Lorem ipsum dolor sit amet, <span>consectetur  adipiscing elit. Suspendisse mi ipsum</span>, hendrerit quis laoreet vitae, auctor nec lacus. Praesent dapibus varius enim nec hendrerit. Proin laoreet, eros faucibus feugiat pulvinar, est nisi eleifend nisi, vitae interdum quam sapien quis lacus. Suspendisse tincidunt volutpat odio, vitae eleifend sem euismod tincidunt. 
+                    <a href="#">#ConquisGuias</a><a href="#"> #ConquisGuiasChannel</a>
+                </p>
+                <img src="../imgs/feed-image-2.png" alt="" class="post-imagen" />
+    
+                <div class="post-fila">
+                    <div class="actividad-iconos">
+                        <div><img src="../imgs/like-blue.png" alt="" /> 20</div>
+                        <div><img src="../imgs/comments.png" alt="" /> 5</div>
+                        <div><img src="../imgs/share.png" alt="" /> 20</div>
+                    </div>
+                    <div class="post-perfil-icono">
+                        <img src="../imgs/profile-pic.png" alt="" />
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="post-contenedor">
+                <div class="post-fila">
+                    <figure class="perfil-usuario">
+                        <img src="../imgs/group.png" alt="" />
+                        <figcaption>
+                            <p>Nombre Grupo</p>
+                            <p class="QuienPublico">Nombre de quien Publico</p>
+                            <span>24 junio 2022, 10:20 am</span>
+                        </figcaption>
+                    </figure>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+    
+                <p class="post-texto">Lorem ipsum dolor sit amet, <span>consectetur  adipiscing elit. Suspendisse mi ipsum</span>, hendrerit quis laoreet vitae, auctor nec lacus. Praesent dapibus varius enim nec hendrerit. Proin laoreet, eros faucibus feugiat pulvinar, est nisi eleifend nisi, vitae interdum quam sapien quis lacus. Suspendisse tincidunt volutpat odio, vitae eleifend sem euismod tincidunt. 
+                    <a href="#">#ConquisGuias</a><a href="#"> #ConquisGuiasChannel</a>
+                </p>
+                <img src="../imgs/feed-image-5.png" alt="" class="post-imagen" />
+    
+                <div class="post-fila">
+                    <div class="actividad-iconos">
+                        <div><img src="../imgs/like-blue.png" alt="" /> 20</div>
+                        <div><img src="../imgs/comments.png" alt="" /> 5</div>
+                        <div><img src="../imgs/share.png" alt="" /> 20</div>
+                    </div>
+                    <div class="post-perfil-icono">
+                        <img src="../imgs/profile-pic.png" alt="" />
+                        <i class="fas fa-sort-down"></i>
+                    </div>
+                </div>
+            </article>
+
+            <button type="button" class="cargar-mas-btn">Cargar más...</button>
+
+        </section>
+
+        <!-- BARRA LATERAL DERECHA -->
+        <aside class="barra-der">
+            
+            <div class="titulo-barra">
+                <h4>Invita a tus amigos!</h4>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-6.png" alt="">
+                </div>
+                <p>Ana Isabel</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-1.png" alt="">
+                </div>
+                <p>Jennifer Mena</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-2.png" alt="">
+                </div>
+                <p>Marco Perez</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-3.png" alt="">
+                </div>
+                <p>Karla Piantini</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-4.png" alt="">
+                </div>
+                <p>Miguel Rodriguez</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-5.png" alt="">
+                </div>
+                <p>Jackson Mena</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-6.png" alt="">
+                </div>
+                <p>Kathia Polanco</p>
+            </div>
+
+            <div class="lista-enlinea">
+                <div class="enlinea">
+                    <img src="../imgs/member-2.png" alt="">
+                </div>
+                <p>Juan Guerrera</p>
+            </div>
+
+            <div class="verAmigos">
+               <a href=""><p>Ver todos tus amigos</p></a> 
+            </div>
+
+        </aside>
+
+    </main>
+     
+    <footer class="pie-pagina">
+        <p>Grupo 2</p>
+    </footer>
+
+</body>
+</html>
